@@ -1,0 +1,5 @@
+../Core/Src/MCP3221.c:10:19:MCP3221_Init	2
+../Core/Src/MCP3221.c:23:10:MCP3221_readADC	2
+../Core/Src/MCP3221.c:44:7:MCP3221_getADCVoltage	1
+../Core/Src/MCP3221.c:54:7:MCP3221_getInputVoltage	1
+../Core/Src/MCP3221.c:71:7:MCP3221_getInputCurrent	1
