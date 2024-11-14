@@ -1,1 +1,1 @@
-STM32 I2c Driver for MCP3221 ADC
+STM32 (F1 series) driver for MCP3221 ADC on I2C hardware interface.
