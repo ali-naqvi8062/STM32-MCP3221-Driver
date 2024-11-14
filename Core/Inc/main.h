@@ -31,6 +31,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "MCP3221.h"
 
 /* USER CODE END Includes */
 
@@ -41,7 +42,8 @@ extern "C" {
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-
+#define SENSE_RES_HIGH_POWER 0.001  // 1 mΩ for high-power card
+#define SENSE_RES_LOW_POWER  0.002  // 2 mΩ for low-power card
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
